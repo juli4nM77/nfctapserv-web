@@ -5,9 +5,9 @@ window.NFC_CONFIG = {
   whatsapp: "59892656978", // WhatsApp de NFC TAP SERV (Uruguay, sin cero inicial).
   currency: "UYU",
   products: [
-    { id:"whatsapp", name:"Placa WhatsApp", category:"redes", description:"Que te escriban con un toque. Ideal para atención y ventas.", price:890, icon:"◉", badge:"OFERTA", offer:true },
-    { id:"instagram", name:"Placa Instagram", category:"redes", description:"Llevá nuevos clientes directo a tu perfil de Instagram.", price:890, icon:"◎", badge:"OFERTA", offer:true },
-    { id:"google", name:"Placa Google Reviews", category:"resenas", description:"Facilitá que tus clientes encuentren dónde dejar una reseña de Google.", price:1490, icon:"★", badge:"OFERTA", offer:true },
+    { id:"whatsapp", image:"./assets/placa-whatsapp.jpeg", name:"Placa WhatsApp", category:"redes", description:"Que te escriban con un toque. Ideal para atención y ventas.", price:890, icon:"◉", badge:"OFERTA", offer:true },
+    { id:"instagram", image:"./assets/placa-instagram.jpeg", name:"Placa Instagram", category:"redes", description:"Llevá nuevos clientes directo a tu perfil de Instagram.", price:890, icon:"◎", badge:"OFERTA", offer:true },
+    { id:"google", image:"./assets/placas-google-reviews.jpeg", name:"Placa Google Reviews", category:"resenas", description:"Facilitá que tus clientes encuentren dónde dejar una reseña de Google.", price:1490, icon:"★", badge:"OFERTA", offer:true },
     { id:"personalizada", name:"Placa Personalizada", category:"personalizadas", description:"Tu marca, tu mensaje y tu enlace, en una placa a tu medida.", price:1790, icon:"✧", badge:"OFERTA", offer:true }
   ]
 };
